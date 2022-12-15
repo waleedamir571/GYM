@@ -59,9 +59,9 @@
             <!-- end col-2 -->
 
             <!-- end col-2 -->
-            <div class="col-12">
+            <!-- <div class="col-12">
                 <p class="copyright">© 2020 Quanca | Premium Gym Club</p>
-            </div>
+            </div> -->
             <!-- end col-12 -->
         </div>
         <!-- end row -->
@@ -81,6 +81,13 @@
                     <p>We match you with the trainer best equipped to help you meet your specific goals and preferences
                         <u>Give yourself</u> the kit you need to leave your competition in the dust.
                     </p>
+                    <ul class="footer-social">
+                    <li><a href="#"><i class="lni lni-facebook-filled"></i></a></li>
+                    <li><a href="#"><i class="lni lni-twitter-original"></i></a></li>
+                    <li><a href="#"><i class="lni lni-instagram"></i></a></li>
+                    <li><a href="#"><i class="lni lni-youtube"></i></a></li>
+                    <li><a href="#"><i class="lni lni-pinterest"></i></a></li>
+                </ul>
                 </div>
                 <!-- end footer-info -->
 
@@ -120,7 +127,7 @@
             <!-- end col-2 -->
             <div class="col-12">
 
-                <p class="copyright">© 2020 Quanca | Premium Gym Club</p>
+                <p class="copyright">© Copright 2022</p>
             </div>
             <!-- end col-12 -->
         </div>

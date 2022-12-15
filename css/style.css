@@ -124,12 +124,27 @@ img {
 p {
   font-family: 'Barlow', sans-serif;
 }
-
+.form-control2 {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0px 29px 0px 21px !important;
+  font-size: 1rem;
+  font-weight: 400;
+  /* height: 6% !important; */
+  /* line-height: 41.5px; */
+  color: #495057;
+  background-color: white;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
 /* FORM ELEMENTS */
 input[type="text"] {
-  width: 420px;
-  max-width: 100%;
-  height: 70px;
+  /* width: 420px; */
+  /* max-width: 100%; */
+  height: 50px;
   padding: 0 30px;
   border: 1px solid #cecece;
 }
@@ -186,6 +201,9 @@ input[type="checkbox"] {
 input[type="checkbox"]:checked {
   border: 6px solid #0d0d0d;
 }
+.pb-20{
+  padding-bottom: 20px;
+}
 
 textarea {
   width: 520px;
@@ -194,6 +212,14 @@ textarea {
   padding: 30px;
   border: 1px solid #cecece;
   background-color: black !important;
+}
+.textarea1 {
+  width: 100%;
+  max-width: 100%;
+  height: 140px;
+  padding: 30px;
+  border: 1px solid #cecece;
+  background-color: white !important;
 }
 
 select {
@@ -204,14 +230,14 @@ select {
   border: 1px solid #cecece;
 }
 
-select {
+/* select {
   -webkit-appearance: none;
   -moz-appearance: none;
   background-image: linear-gradient(45deg, transparent 50%, gray 50%), linear-gradient(135deg, gray 50%, transparent 50%), linear-gradient(to right, #ccc, #ccc);
   background-position: calc(100% - 30px) 34px, calc(100% - 25px) 34px, calc(100% - 3.5em) 20px;
   background-size: 5px 5px, 5px 5px, 1px 40px;
   background-repeat: no-repeat;
-}
+} */
 
 select:focus {
   background-image: linear-gradient(45deg, gray 50%, transparent 50%), linear-gradient(135deg, transparent 50%, gray 50%), linear-gradient(to right, #ccc, #ccc);
@@ -647,7 +673,7 @@ button[type="submit"] i {
 
 /* SIDE WIDGET */
 .side-widget {
-  width: 400px;
+  width: 300px;
   height: 100vh;
   max-width: 100%;
   display: flex;
@@ -660,14 +686,14 @@ button[type="submit"] i {
   -webkit-transition-duration: 1s;
   transition-timing-function: cubic-bezier(0.86, 0, 0.09, 1);
   -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.09, 1);
-  background: #0d0d0d;
+  background: #525659;
   z-index: 6;
   box-shadow: 0 0 60px rgba(0, 0, 0, 0.4);
   padding: 20px 30px;
   color: #fff;
 }
 .side-widget .inner {
-  display: flex;
+  display: block;
   flex-wrap: wrap;
   align-items: center;
   overflow-y: auto;
@@ -710,7 +736,7 @@ button[type="submit"] i {
   display: block;
   margin-bottom: 10px;
   font-size: 18px;
-  color: #f42828;
+  color: #3E3E40;
 }
 .side-widget .address {
   width: 100%;
@@ -802,7 +828,7 @@ button[type="submit"] i {
   margin-bottom: 10px;
 }
 .side-widget .site-menu ul li a {
-  color: #fff;
+  color: #333333;
   font-size: 18px;
   font-weight: 600;
 }
@@ -845,6 +871,10 @@ button[type="submit"] i {
   display: inline-block;
   color: #fff;
 }
+.b-left{
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+
+}
 
 /* NAVBAR */
 .navbar {
@@ -855,14 +885,14 @@ button[type="submit"] i {
   position: absolute;
   left: 0;
   top: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  /* border-bottom: 1px solid rgba(255, 255, 255, 0.3); */
   z-index: 2;
 }
 .navbar .logo {
   margin-right: auto;
   padding: 30px 0;
-  padding-right: 30px;
-  border-right: 1px solid rgba(255, 255, 255, 0.3);
+  padding-right: 100px;
+  /* border-right: 1px solid rgba(255, 255, 255, 0.3); */
 }
 .navbar .logo a {
   display: inline-block;
@@ -1205,9 +1235,10 @@ button[type="submit"] i {
 .section-title h2 {
   width: 100%;
   display: block;
-  margin-bottom: 0;
-  font-size: 70px;
-  color: #f42828;
+  padding-top: 30px;
+  margin-bottom: -25px;
+  font-size: 41px;
+  color: black;
 }
 .section-title p {
   width: 100%;
@@ -2508,7 +2539,7 @@ button[type="submit"] i {
 .contact-box li {
   width: 100%;
   display: flex;
-  margin-bottom: 15px;
+  margin-bottom: 40px;
   padding: 0;
   list-style: none;
   line-height: 1.2;
@@ -2519,7 +2550,7 @@ button[type="submit"] i {
 .contact-box li h6 {
   width: 100px;
   display: inline-block;
-  color: #f42828;
+  color: skyblue;
   margin: 0;
 }
 .contact-box li span {
@@ -2683,7 +2714,7 @@ button[type="submit"] i {
   width: 100%;
   display: block;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 40px;
   margin-top: 10px;
   margin-bottom: 15px;
 }
@@ -2955,6 +2986,15 @@ button[type="submit"] i {
   .side-widget {
     max-width: 80vw;
   }
+  .navbar .logo {
+    margin-right: auto;
+    padding: 30px 0;
+    padding-right: 0px;
+    /* border-right: 1px solid rgba(255, 255, 255, 0.3); */
+}
+.navbar .logo a img {
+  height: 30px;
+}
 
   .topbar div b {
     display: none;

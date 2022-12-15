@@ -57,13 +57,26 @@
             <div class="logo"> <a href="index.html"><img src="images/logo.png" alt="Image"></a> </div>
             <!-- end logo -->
             <div class="hide-mobile">
-                <p>A great way to evaluate your current fitness level, including measurements that help determine your
-                    physical fitness.</p>
-                <figure class="gallery"><a href="images/recent-news01.jpg" data-fancybox><img
-                            src="images/recent-news01.jpg" alt="Image"></a><a href="images/recent-news02.jpg"
-                        data-fancybox><img src="images/recent-news02.jpg" alt="Image"></a></figure>
-                <h6 class="widget-title">CONTACT INFO</h6>
-                <address class="address">
+                <div class="site-menu">
+                    <ul>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="quanca.php">Expolore Sports</a></li>
+                        <li><a href="schedule.php">About</a></li>
+
+                    </ul>
+                </div>
+
+
+                <h6 class="widget-title">My Account</h6>
+                <div class="site-menu">
+                    <ul>
+
+                        <li><a href="classes.php">Classes</a></li>
+                        <li><a href="blog.php">Blog</a></li>
+                        <li><a href="contact.php">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- <address class="address">
                     <p>+1 (850) 344 0 66<br>
                         <a href="#">hellow@quanca.co.uk</a>
                     </p>
@@ -75,37 +88,37 @@
                     <li><a href="#"><i class="lni lni-instagram"></i></a></li>
                     <li><a href="#"><i class="lni lni-youtube"></i></a></li>
                     <li><a href="#"><i class="lni lni-pinterest"></i></a></li>
-                </ul>
+                </ul> -->
             </div>
             <!-- end hide-mobile -->
             <div class="show-mobile">
                 <div class="site-menu">
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="quanca.html">Quanca</a></li>
-                        <li><a href="schedule.html">Schedule</a></li>
-                        <li><a href="classes.html">Classes</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="quanca.php">Quanca</a></li>
+                        <li><a href="schedule.php">Schedule</a></li>
+                        <li><a href="classes.php">Classes</a></li>
+                        <li><a href="blog.php">Blog</a></li>
+                        <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </div>
                 <!-- end site-menu -->
             </div>
             <!-- end show-mobile -->
-            <small>© 2020 Quanca | Premium Gym Club</small>
+            <!-- <small>© 2020 Quanca | Premium Gym Club</small> -->
         </div>
         <!-- end inner -->
     </aside>
     <!-- end side-widget -->
     <nav class="navbar">
-        <div class="topbar">
+        <!-- <div class="topbar">
             <div class="container">
                 <div><b>E-mail</b><a href="#">hellow@quanca.co.uk</a></div>
                 <div><b>Phone</b>+1 653 5869</div>
                 <div><b><i class="lni lni-map-marker"></i> Location</b><a href="#">Find Gym</a> </div>
             </div>
-            <!-- end container -->
-        </div>
+
+        </div> -->
         <!-- end topbar -->
         <div class="container">
 
@@ -113,18 +126,22 @@
 
             <!-- end logo -->
             <div class="site-menu">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="quanca.html">Quanca</a></li>
-                    <li><a href="schedule.html">Schedule</a></li>
-                    <li><a href="classes.html">Classes</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
+                <!-- <ul>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="quanca.php">Quanca</a></li>
+                    <li><a href="schedule.php">Schedule</a></li>
+                    <li><a href="classes.php">Classes</a></li>
+                    <li><a href="blog.php">Blog</a></li>
+                    <li><a href="contact.php">Contact</a></li>
+                </ul> -->
             </div>
             <!-- end site-menu -->
             <div class="logo"> <a href="index.html"><img src="images/logo.png" alt="Image"></a> </div>
             <!-- end hamburher-menu -->
+            <div class="navbar-button1"> <a href="contact.html"> AR</a> </div>
+            <div class="navbar-button1"> <a href="contact.html"><i class="lni lni-shopping-basket"></i></a>
+            </div>
+            <div class="navbar-button1 b-left"> <a href="contact.html"><i class="lni lni-search"></i></a> </div>
             <div class="navbar-button1"> <a href="contact.html"><i class="lni lni-whatsapp"></i> Call Us</a> </div>
             <div class="navbar-button1"> <a href="contact.html"><i class="lni lni-user"></i></a> </div>
             <!-- end navbar-button -->
