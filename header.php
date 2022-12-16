@@ -60,8 +60,8 @@
                 <div class="site-menu">
                     <ul>
                         <li><a href="index.php">Home</a></li>
-                        <li><a href="quanca.php">Expolore Sports</a></li>
-                        <li><a href="schedule.php">About</a></li>
+                        <li><a href="">Expolore Sports</a></li>
+                        <li><a href="about-us.php">About</a></li>
 
                     </ul>
                 </div>
