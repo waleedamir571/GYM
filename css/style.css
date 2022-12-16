@@ -1187,11 +1187,19 @@ button[type="submit"] i {
   padding-bottom: 10px; */
   color: #000;
 }
-
+a#nav-home-tab {
+  padding-right: 30px !important;
+}
+.tui-calendar {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #aaa;
+  width: 68em !important;
+}
 .html {
   width: 100%;
   background-color: skyblue;
-  height: 10px;
+  height: 5px;
   border-radius: 20px;
 }
 

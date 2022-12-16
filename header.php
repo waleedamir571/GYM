@@ -41,6 +41,7 @@
     <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tuicalendar.min.css">
 </head>
 
 <body>

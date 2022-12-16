@@ -82,12 +82,12 @@
                         <u>Give yourself</u> the kit you need to leave your competition in the dust.
                     </p>
                     <ul class="footer-social">
-                    <li><a href="#"><i class="lni lni-facebook-filled"></i></a></li>
-                    <li><a href="#"><i class="lni lni-twitter-original"></i></a></li>
-                    <li><a href="#"><i class="lni lni-instagram"></i></a></li>
-                    <li><a href="#"><i class="lni lni-youtube"></i></a></li>
-                    <li><a href="#"><i class="lni lni-pinterest"></i></a></li>
-                </ul>
+                        <li><a href="#"><i class="lni lni-facebook-filled"></i></a></li>
+                        <li><a href="#"><i class="lni lni-twitter-original"></i></a></li>
+                        <li><a href="#"><i class="lni lni-instagram"></i></a></li>
+                        <li><a href="#"><i class="lni lni-youtube"></i></a></li>
+                        <li><a href="#"><i class="lni lni-pinterest"></i></a></li>
+                    </ul>
                 </div>
                 <!-- end footer-info -->
 
@@ -145,6 +145,7 @@
 <script src="js/odometer.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/scripts.js"></script>
+<script src="js/tuicalendar.bundle.js"></script>
 </body>
 
 </html>
