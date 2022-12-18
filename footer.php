@@ -138,6 +138,7 @@
 <!-- end footer -->
 
 <!-- JS FILES -->
+<!-- <script src="js/tuicalendar.bundle.js"></script> -->
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/fancybox.min.js"></script>
@@ -145,7 +146,7 @@
 <script src="js/odometer.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/scripts.js"></script>
-<script src="js/tuicalendar.bundle.js"></script>
+
 </body>
 
 </html>

@@ -310,3 +310,5 @@
 
 <!-- end google-maps -->
 <?php include 'footer.php';?>
+
+<script src="js/tuicalendar.bundle.js"></script>

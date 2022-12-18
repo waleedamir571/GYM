@@ -148,6 +148,16 @@ input[type="text"] {
   padding: 0 30px;
   border: 1px solid #cecece;
 }
+.custom-button2 {
+  height: 50px;
+  line-height: 50px;
+  display: inline-block;
+  border: 1px solid black;
+  background: black;
+  color: white;
+  padding: 0 30px;
+  position: relative;
+}
 
 input[type="email"] {
   /* width: 420px; */
@@ -156,7 +166,32 @@ input[type="email"] {
   padding: 0 30px;
   border: 1px solid #cecece;
 }
-
+.pt-100 {
+  padding-top: 100px !important;
+}
+.float-right{
+  float: right;
+}
+.custom-button1 {
+  height: 60px;
+  line-height: 60px;
+  display: inline-block;
+  border: 1px solid black;
+  background: transparent;
+  color: black;
+  padding: 0 20px;
+  position: relative;
+}
+.border-1{
+  border: 2px solid skyblue;
+}
+.grey-bg {
+  background-color: skyblue;
+  width: 100%;
+  /* border: 15px solid green; */
+  padding: 15px 10px 15px;
+  margin: 0px;
+}
 input[type="search"] {
   width: 420px;
   max-width: 100%;
@@ -266,7 +301,7 @@ select:-moz-focusring {
   text-shadow: 0 0 0 #000;
 }
 
-input[type="submit"] {
+/* input[type="submit"] {
   height: 70px;
   display: inline-block;
   font-size: 14px;
@@ -275,7 +310,7 @@ input[type="submit"] {
   background: #0d0d0d;
   border: none;
   padding: 0 50px;
-}
+} */
 
 button[type="submit"] {
   height: 70px;
