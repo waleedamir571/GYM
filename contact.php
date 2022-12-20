@@ -64,7 +64,7 @@
 						</div>
 						<!-- end form-group -->
 						<div class="form-group">
-							<input type="submit" value="SEND MESSAGE">
+						<a href="contact.html" class="custom-button2">Send Message</a>
 						</div>
 					</form>
 					<form>
